@@ -2,6 +2,9 @@
 # cython: profile=True
 # filename: calc_pi.pyx
 
+cimport cython
+
+@cython.profile(False)
 cdef inline double recip_square(i):
     return 1./i**2
 
