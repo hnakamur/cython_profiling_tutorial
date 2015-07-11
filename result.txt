@@ -6,22 +6,22 @@ real	0m5.070s
 user	0m5.005s
 sys	0m0.021s
 (venv) $ time python profile_calc_pi.py
-Sat Jul 11 22:01:45 2015    Profile.prof
+Sat Jul 11 22:03:23 2015    Profile.prof
 
-         10000005 function calls in 5.357 seconds
+         10000005 function calls in 5.327 seconds
 
    Ordered by: internal time
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
- 10000000    4.118    0.000    4.118    0.000 calc_pi.pyx:5(recip_square)
-        1    1.239    1.239    5.357    5.357 calc_pi.pyx:8(approx_pi)
-        1    0.000    0.000    5.357    5.357 {built-in method exec}
-        1    0.000    0.000    5.357    5.357 <string>:1(<module>)
-        1    0.000    0.000    5.357    5.357 {calc_pi.approx_pi}
+ 10000000    4.079    0.000    4.079    0.000 calc_pi.pyx:5(recip_square)
+        1    1.248    1.248    5.327    5.327 calc_pi.pyx:8(approx_pi)
+        1    0.000    0.000    5.327    5.327 {built-in method exec}
+        1    0.000    0.000    5.327    5.327 <string>:1(<module>)
+        1    0.000    0.000    5.327    5.327 {calc_pi.approx_pi}
         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
 
 
 
-real	0m6.274s
-user	0m5.897s
-sys	0m0.196s
+real	0m6.134s
+user	0m5.859s
+sys	0m0.161s
