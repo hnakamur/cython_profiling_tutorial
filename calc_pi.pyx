@@ -2,7 +2,7 @@
 # cython: profile=True
 # filename: calc_pi.pyx
 
-def recip_square(i):
+cdef inline double recip_square(i):
     return 1./i**2
 
 def approx_pi(n=10000000):
