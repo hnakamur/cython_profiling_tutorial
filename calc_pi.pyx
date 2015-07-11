@@ -1,6 +1,6 @@
-#!/usr/bin/env python
 # encoding: utf-8
-# filename: calc_pi.py
+# cython: profile=True
+# filename: calc_pi.pyx
 
 def recip_square(i):
     return 1./i**2
